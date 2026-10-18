@@ -752,3 +752,29 @@ dialog input {
         padding-bottom: 0;
     }
 }
+
+/*.seo-info rules*/
+.seo-info {
+    margin-top: 12px;
+    padding: 14px 16px;
+    background: var(--soft);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+}
+
+.seo-info summary {
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.seo-info summary:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+}
+
+.seo-info p {
+    font-size: 13px;
+    margin: 12px 0 0;
+}

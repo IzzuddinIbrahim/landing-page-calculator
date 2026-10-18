@@ -1,8 +1,28 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#153c35"><title>Landing Page Pricing Calculator</title><link rel="stylesheet" href="styles.css?v=20261016-reset2"><script src="scripts.js?v=20261016-reset2" defer></script></head>
-<body><header class="site-header"><a class="brand" href="#">banaart<span> / project estimator</span></a><span class="header-tag">PLAN YOUR NEXT PROJECT</span></header>
-<main><section class="intro"><p class="eyebrow">A CLEAR SCOPE. A CLEAR START.</p><h1>Your landing page,<br><em>priced your way.</em></h1><p>Choose what your project needs. Get an itemised estimate with development, ongoing support and annual services shown separately.</p><a href="https://tinyurl.com/projectsheet4u" target="_blank" rel="noopener noreferrer">Need a full website instead? ↗</a></section>
-<div class="workspace"><form id="pricing-form">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#153c35">
+    <title>Landing Page Pricing Calculator</title>
+    <link rel="stylesheet" href="styles.css?v=20261016-reset2">
+    <script src="scripts.js?v=20261016-reset2" defer></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="#">banaart<span> / project estimator</span></a><span
+            class="header-tag">PLAN YOUR NEXT PROJECT</span></header>
+    <main>
+        <section class="intro">
+            <p class="eyebrow">A CLEAR SCOPE. A CLEAR START.</p>
+            <h1>Your landing page,<br><em>priced your way.</em></h1>
+            <p>Choose what your project needs. Get an itemised estimate with development, ongoing support and annual
+                services shown separately.</p><a href="https://tinyurl.com/projectsheet4u" target="_blank"
+                rel="noopener noreferrer">Need a full website instead? ↗</a>
+        </section>
+        <div class="workspace">
+            <form id="pricing-form">
 
 
 
@@ -21,164 +41,307 @@
 
 
 
-<section aria-labelledby="section-1" class="card"><h2 id="section-1">01 / Page &amp; content</h2><div class="form-group">
-<label for="page-type">Page Type:</label>
-<select aria-describedby="page-type-hint" id="page-type" name="page-type">
-<option value="single">Single landing page</option>
-<option value="unlimited">Multiple pages</option>
-</select><small id="page-type-hint">Base development: single RM80; multiple pages RM400. Final page count is agreed before work starts.</small>
-</div><div class="form-group">
-<label for="copywriting">Do you need copywriting?</label>
-<select aria-describedby="copywriting-hint" id="copywriting" name="copywriting">
-<option value="no">No</option>
-<option value="yes">Yes</option>
-</select><small id="copywriting-hint">English RM250, BM RM300, or both RM460.</small>
-</div><div class="form-group" hidden="" id="copywriting-options">
-<label for="copywriting-language">Choose language:</label>
-<select id="copywriting-language" name="copywriting-language">
-<option value="english">English</option>
-<option value="bm">BM</option>
-<option value="both">Both</option>
-</select>
-</div><div class="form-group">
-<label for="images">Will you provide me pictures, images, icons?</label>
-<select aria-describedby="images-hint" id="images" name="images">
-<option value="yes">Yes</option>
-<option value="no">No</option>
-</select><small id="images-hint">Image sourcing adds RM20 when images are not supplied.</small>
-</div><div class="form-group">
-<label for="design-reference">Do you want a unique design?</label>
-<select aria-describedby="design-reference-hint" id="design-reference" name="design-reference">
-<option value="no">No</option>
-<option value="yes">Yes</option>
-</select><small id="design-reference-hint">Unique design adds RM50 for a single page or RM200 for multiple pages.</small>
-</div><div class="form-group" hidden="" id="design-reference-url">
-<label for="design-reference-textarea">If you have a design reference, please paste the URLs below:</label>
-<textarea id="design-reference-textarea" name="design-reference-textarea" placeholder="Paste design reference URLs here..." rows="4"></textarea>
-</div></section><section aria-labelledby="section-2" class="card"><h2 id="section-2">02 / Hosting, SEO &amp; support</h2><div class="form-group">
-<label for="hosting-domain">Do you need hosting and domain (for 1 year)?</label>
-<select aria-describedby="hosting-domain-hint" id="hosting-domain" name="hosting-domain">
-<option value="no">No</option>
-<option value="yes">Yes</option>
-</select><small id="hosting-domain-hint">Single page: domain RM90/year and hosting RM50/year. Multiple-page package: selected domain and hosting are included in year one; renewals are quoted separately.</small>
-</div><div class="form-group" hidden="" id="hosting-domain-options">
-<label for="domain">Domain:</label>
-<select id="domain" name="domain">
-<option value="no">No</option>
-<option value="yes">Yes</option>
-</select>
-<label for="hosting">Hosting:</label>
-<select id="hosting" name="hosting">
-<option value="no">No</option>
-<option value="yes">Yes</option>
-</select>
-</div><div class="form-group">
-<label for="seo-optimization">Do you need SEO Optimization?</label>
-<select aria-describedby="seo-optimization-hint" id="seo-optimization" name="seo-optimization">
-<option value="no">No</option>
-<option value="technical-seo">Technical SEO only</option>
-<option value="onpage-seo">On-Page SEO only</option>
-<option value="both-seo">Technical SEO &amp; On-Page SEO</option>
-</select><small id="seo-optimization-hint">Technical RM150; on-page RM100; both RM250. Package rate: any selected SEO option is RM50 with multiple pages or paid copywriting. Rankings are not guaranteed.</small>
-</div><div class="form-group">
-<label for="maintenance-support">Do you need web maintenance and support after the website is handed over?</label>
-<select aria-describedby="maintenance-support-hint" id="maintenance-support" name="maintenance-support">
-<option value="no">No</option>
-<option value="yes">Yes</option>
-</select><small id="maintenance-support-hint">Optional ongoing website support, separate from development.</small>
-</div><div class="form-group" hidden="" id="maintenance-support-options">
-<label for="maintenance-type">Type of maintenance:</label>
-<select aria-describedby="maintenance-type-hint" id="maintenance-type" name="maintenance-type">
-<option value="">Please select</option>
-<option value="adhoc">Adhoc (per hour)</option>
-<option value="monthly-basic">Monthly - Basic</option>
-<option value="monthly-full">Monthly - Full</option>
-</select><small id="maintenance-type-hint">Basic: RM100/month (single) or RM300/month (multiple). Full: RM800/month, available for multiple pages only.</small>
-</div><div class="form-group" hidden="" id="adhoc-options"><label for="adhoc-hours">Support hours</label><input id="adhoc-hours" max="10000" min="1" name="adhoc-hours" step="1" type="number" value="1"/><small>RM80 per hour. Enter a whole number of hours.</small></div><div class="form-group" hidden="" id="maintenance-support-details">
-<label for="maintenance-details">What type of maintenance and support services are you looking for? (e.g., content updates, graphic design, backup, etc.)</label>
-<textarea id="maintenance-details" name="maintenance-details" placeholder="Describe your maintenance and support needs..." rows="4"></textarea>
-</div></section><section aria-labelledby="section-3" class="card"><h2 id="section-3">03 / Features &amp; project notes</h2><div aria-label="Optional features" class="form-group features" role="group">
-<label>Please select all the features you need for your landing page:</label>
-<div class="feature-option">
-<input checked="" disabled="" id="content-blocks" name="features" type="checkbox" value="0"/>
-<label for="content-blocks">Unlimited Text and image content blocks (included)</label>
-</div>
-<div class="feature-option">
-<input id="video-intro" name="features" type="checkbox" value="10"/>
-<label for="video-intro">Video Introduction<span class="price-badge">RM10</span></label>
-</div>
-<div class="feature-option">
-<input id="photo-gallery" name="features" type="checkbox" value="10"/>
-<label for="photo-gallery">Photo Gallery<span class="price-badge">RM10</span></label>
-</div>
-<div class="feature-option">
-<input id="testimonial-image" name="features" type="checkbox" value="15"/>
-<label for="testimonial-image">Testimonial (Image)<span class="price-badge">RM15</span></label>
-</div>
-<div class="feature-option">
-<input id="testimonial-video" name="features" type="checkbox" value="15"/>
-<label for="testimonial-video">Testimonial (Video)<span class="price-badge">RM15</span></label>
-</div>
-<div class="feature-option">
-<input id="testimonial-text" name="features" type="checkbox" value="5"/>
-<label for="testimonial-text">Testimonial (Text)<span class="price-badge">RM5</span></label>
-</div>
-<div class="feature-option">
-<input id="testimonial-all" name="features" type="checkbox" value="20"/>
-<label for="testimonial-all">Testimonial (All)<span class="price-badge">RM20</span></label>
-</div>
-<div class="feature-option">
-<input id="faq" name="features" type="checkbox" value="10"/>
-<label for="faq">FAQ<span class="price-badge">RM10</span></label>
-</div>
-<div class="feature-option">
-<input id="social-media-buttons" name="features" type="checkbox" value="15"/>
-<label for="social-media-buttons">Social Media buttons<span class="price-badge">RM15</span></label>
-</div>
-<div class="feature-option">
-<input id="whatsapp-buttons" name="features" type="checkbox" value="20"/>
-<label for="whatsapp-buttons">WhatsApp buttons<span class="price-badge">RM20</span></label>
-</div>
-<div class="feature-option">
-<input id="product-display" name="features" type="checkbox" value="100"/>
-<label for="product-display">Product/Package Display<span class="price-badge">RM100</span></label>
-</div>
-<div class="feature-option">
-<input id="pricing-table" name="features" type="checkbox" value="100"/>
-<label for="pricing-table">Pricing Table<span class="price-badge">RM100</span></label>
-</div>
-<div class="feature-option">
-<input id="booking-form-click" name="features" type="checkbox" value="80"/>
-<label for="booking-form-click">Booking/Order Form (client click &amp; submit to WhatsApp)<span class="price-badge">RM80</span></label>
-</div>
-<div class="feature-option">
-<input id="booking-form-auto-whatsapp" name="features" type="checkbox" value="400"/>
-<label for="booking-form-auto-whatsapp">Booking/Order Form (send to WhatsApp without client click)<span class="price-badge">RM400</span></label>
-</div>
-<div class="feature-option">
-<input id="booking-form-email" name="features" type="checkbox" value="20"/>
-<label for="booking-form-email">Booking/Order Form (send to Email)<span class="price-badge">RM20</span></label>
-</div>
-<div class="feature-option">
-<input id="cart-without-payment" name="cart-options" type="checkbox" value="400"/>
-<label for="cart-without-payment">Cart without Payment Gateway<span class="price-badge">RM400</span></label>
-</div>
-<div class="feature-option">
-<input id="cart-with-payment" name="cart-options" type="checkbox" value="600"/>
-<label for="cart-with-payment">Cart with Payment Gateway<span class="price-badge">RM600</span></label>
-</div>
-<div class="feature-option">
-<input id="statistics" name="features" type="checkbox" value="10"/>
-<label for="statistics">Statistics / Track Record<span class="price-badge">RM10</span></label>
-</div>
-<p class="hint">Automatic WhatsApp sending may require a paid API/provider. Payment gateways may charge setup, subscription or transaction fees. These third-party charges are excluded.</p></div><div class="form-group">
-<label for="additional-features">Please indicate if you need any other feature below:</label>
-<textarea aria-describedby="additional-features-hint" id="additional-features" name="additional-features" placeholder="Describe any additional features..." rows="4"></textarea><small id="additional-features-hint">Unpriced requests require a separate quote and are not included in the estimate.</small>
-</div></section></form>
-<aside class="summary card" aria-labelledby="estimate-title"><div class="summary-top"><p class="eyebrow">YOUR PROJECT</p><button id="reset-button" type="reset" form="pricing-form" class="text-button">Reset</button></div><p id="reset-status" class="hint" role="status" aria-live="polite"></p><h2 id="estimate-title">The estimate</h2><div class="totals" aria-live="polite" aria-atomic="true"><span>One-time project cost</span><strong id="one-time-total">RM 80.00</strong><div class="recurring"><div><span>Monthly support</span><b id="monthly-total">RM 0.00</b></div><div><span>Annual services</span><b id="annual-total">RM 0.00</b></div></div></div><div id="estimate-lines"></div><div class="initial-total"><span>Initial payment estimate*</span><b id="total">RM 80.00</b></div><p class="hint">*Project cost + first month of support + first-year annual services. This is an estimate, subject to scope confirmation.</p><p id="estimate-error" class="error" role="alert" hidden></p><button type="button" id="rfq-button" class="primary">Prepare quotation <span aria-hidden="true">↗</span></button><p class="hint">Review your details, then print or save as PDF. Nothing is sent automatically.</p></aside></div></main>
-<dialog id="rfq-dialog" aria-labelledby="rfq-title"><form id="rfq-form"><div class="dialog-top"><h2 id="rfq-title">Prepare your quotation</h2><button type="button" id="close-rfq" class="icon-button" aria-label="Close quotation dialog">×</button></div><p>Add your details to the printable project estimate.</p><label for="user-name">Your name</label><input id="user-name" name="user-name" autocomplete="name" maxlength="120" required><label for="user-contact">Email or phone number</label><input id="user-contact" name="user-contact" autocomplete="email" maxlength="150" required><p id="contact-error" class="error" role="alert" hidden></p><p class="hint">Your contact details are used only in this quotation and are not stored by this app.</p><div class="actions"><button type="button" id="cancel-rfq" class="secondary">Cancel</button><button type="submit" class="primary">Review quotation</button></div></form></dialog>
-<section id="print-quote" hidden aria-label="Quotation preview"></section>
-<div class="mobile-estimate"><div><span>Initial estimate</span><strong id="mobile-total">RM 80.00</strong></div><button type="button" id="review-estimate" class="primary">Review estimate ↑</button></div>
-<footer><span>Questions or feedback? <a href="https://banaart.com" target="_blank" rel="noopener noreferrer">Get in touch ↗</a></span><button type="button" id="buy-calculator" class="text-button">Get this calculator for your business</button></footer>
-<dialog id="buy-dialog" aria-labelledby="buy-title"><div class="dialog-top"><h2 id="buy-title">Get the calculator</h2><button type="button" id="close-buy" class="icon-button" aria-label="Close calculator dialog">×</button></div><p>Pay whatever amount you choose. Include “Calculator” in your payment reference, then send your receipt by WhatsApp to arrange delivery of the files.</p><a href="https://banaart.com/qr-iwani.jpg" target="_blank" rel="noopener noreferrer">View payment QR code ↗</a><div class="actions"><button type="button" id="cancel-buy" class="secondary">Close</button><a class="primary" href="https://wa.link/k5wl78" target="_blank" rel="noopener noreferrer">Send receipt on WhatsApp ↗</a></div></dialog>
-</body></html>
+                <section aria-labelledby="section-1" class="card">
+                    <h2 id="section-1">01 / Page &amp; content</h2>
+                    <div class="form-group">
+                        <label for="page-type">Page Type:</label>
+                        <select aria-describedby="page-type-hint" id="page-type" name="page-type">
+                            <option value="single">Single landing page</option>
+                            <option value="unlimited">Multiple pages</option>
+                        </select><small id="page-type-hint">Base development: single RM80; multiple pages RM400. Final
+                            page count is agreed before work starts.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="copywriting">Do you need copywriting?</label>
+                        <select aria-describedby="copywriting-hint" id="copywriting" name="copywriting">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select><small id="copywriting-hint">English RM250, BM RM300, or both RM460.</small>
+                    </div>
+                    <div class="form-group" hidden="" id="copywriting-options">
+                        <label for="copywriting-language">Choose language:</label>
+                        <select id="copywriting-language" name="copywriting-language">
+                            <option value="english">English</option>
+                            <option value="bm">BM</option>
+                            <option value="both">Both</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="images">Will you provide me pictures, images, icons?</label>
+                        <select aria-describedby="images-hint" id="images" name="images">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select><small id="images-hint">Image sourcing adds RM20 when images are not supplied.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="design-reference">Do you want a unique design?</label>
+                        <select aria-describedby="design-reference-hint" id="design-reference" name="design-reference">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select><small id="design-reference-hint">Unique design adds RM50 for a single page or RM200
+                            for multiple pages.</small>
+                    </div>
+                    <div class="form-group" hidden="" id="design-reference-url">
+                        <label for="design-reference-textarea">If you have a design reference, please paste the URLs
+                            below:</label>
+                        <textarea id="design-reference-textarea" name="design-reference-textarea"
+                            placeholder="Paste design reference URLs here..." rows="4"></textarea>
+                    </div>
+                </section>
+                <section aria-labelledby="section-2" class="card">
+                    <h2 id="section-2">02 / Hosting, SEO &amp; support</h2>
+                    <div class="form-group">
+                        <label for="hosting-domain">Do you need hosting and domain (for 1 year)?</label>
+                        <select aria-describedby="hosting-domain-hint" id="hosting-domain" name="hosting-domain">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select><small id="hosting-domain-hint">Single page: domain RM90/year and hosting RM50/year.
+                            Multiple-page package: selected domain and hosting are included in year one; renewals are
+                            quoted separately.</small>
+                    </div>
+                    <div class="form-group" hidden="" id="hosting-domain-options">
+                        <label for="domain">Domain:</label>
+                        <select id="domain" name="domain">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                        <label for="hosting">Hosting:</label>
+                        <select id="hosting" name="hosting">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="seo-optimization">Do you need SEO Optimization?</label>
+                        <select aria-describedby="seo-optimization-hint" id="seo-optimization" name="seo-optimization">
+                            <option value="no">No</option>
+                            <option value="technical-seo">Technical SEO only</option>
+                            <option value="onpage-seo">On-Page SEO only</option>
+                            <option value="both-seo">Technical &amp; On-Page SEO</option>
+                        </select><small id="seo-optimization-hint">Technical RM150; on-page RM100; both RM250. Package
+                            rate: any selected SEO option is RM50 with multiple pages or paid copywriting. Rankings are
+                            not guaranteed.</small>
+                        <p class="hint">
+                            SEO stands for Search Engine Optimisation.
+                            It helps search engines find and understand your website.
+                        </p>
+
+                        <details class="seo-info">
+                            <summary>What do the SEO options include?</summary>
+
+                            <p>
+                                <strong>Technical SEO:</strong>
+                                Improvements to loading speed and how search engines
+                                access your pages, including sitemap setup.
+                            </p>
+
+                            <p>
+                                <strong>On-Page SEO:</strong>
+                                Improvements to page titles, headings, descriptions
+                                and content to explain your services clearly.
+                            </p>
+
+                            <p>
+                                <strong>Technical and On-Page SEO:</strong>
+                                Includes technical and on-page improvements.
+                            </p>
+
+                            <p class="hint">
+                                This covers the agreed website setup.
+                                Ongoing SEO work is quoted separately.
+                                Google indexing and rankings are not guaranteed.
+                            </p>
+                        </details>
+                    </div>
+                    <div class="form-group">
+                        <label for="maintenance-support">Do you need web maintenance and support after the website is
+                            handed over?</label>
+                        <select aria-describedby="maintenance-support-hint" id="maintenance-support"
+                            name="maintenance-support">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select><small id="maintenance-support-hint">Optional ongoing website support, separate from
+                            development.</small>
+                    </div>
+                    <div class="form-group" hidden="" id="maintenance-support-options">
+                        <label for="maintenance-type">Type of maintenance:</label>
+                        <select aria-describedby="maintenance-type-hint" id="maintenance-type" name="maintenance-type">
+                            <option value="">Please select</option>
+                            <option value="adhoc">Adhoc (per hour)</option>
+                            <option value="monthly-basic">Monthly - Basic</option>
+                            <option value="monthly-full">Monthly - Full</option>
+                        </select><small id="maintenance-type-hint">Basic: RM100/month (single) or RM300/month
+                            (multiple). Full: RM800/month, available for multiple pages only.</small>
+                    </div>
+                    <div class="form-group" hidden="" id="adhoc-options"><label for="adhoc-hours">Support
+                            hours</label><input id="adhoc-hours" max="10000" min="1" name="adhoc-hours" step="1"
+                            type="number" value="1" /><small>RM80 per hour. Enter a whole number of hours.</small></div>
+                    <div class="form-group" hidden="" id="maintenance-support-details">
+                        <label for="maintenance-details">What type of maintenance and support services are you looking
+                            for? (e.g., content updates, graphic design, backup, etc.)</label>
+                        <textarea id="maintenance-details" name="maintenance-details"
+                            placeholder="Describe your maintenance and support needs..." rows="4"></textarea>
+                    </div>
+                </section>
+                <section aria-labelledby="section-3" class="card">
+                    <h2 id="section-3">03 / Features &amp; project notes</h2>
+                    <div aria-label="Optional features" class="form-group features" role="group">
+                        <label>Please select all the features you need for your landing page:</label>
+                        <div class="feature-option">
+                            <input checked="" disabled="" id="content-blocks" name="features" type="checkbox"
+                                value="0" />
+                            <label for="content-blocks">Unlimited Text and image content blocks (included)</label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="video-intro" name="features" type="checkbox" value="10" />
+                            <label for="video-intro">Video Introduction<span class="price-badge">RM10</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="photo-gallery" name="features" type="checkbox" value="10" />
+                            <label for="photo-gallery">Photo Gallery<span class="price-badge">RM10</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="testimonial-image" name="features" type="checkbox" value="15" />
+                            <label for="testimonial-image">Testimonial (Image)<span
+                                    class="price-badge">RM15</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="testimonial-video" name="features" type="checkbox" value="15" />
+                            <label for="testimonial-video">Testimonial (Video)<span
+                                    class="price-badge">RM15</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="testimonial-text" name="features" type="checkbox" value="5" />
+                            <label for="testimonial-text">Testimonial (Text)<span class="price-badge">RM5</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="testimonial-all" name="features" type="checkbox" value="20" />
+                            <label for="testimonial-all">Testimonial (All)<span class="price-badge">RM20</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="faq" name="features" type="checkbox" value="10" />
+                            <label for="faq">FAQ<span class="price-badge">RM10</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="social-media-buttons" name="features" type="checkbox" value="15" />
+                            <label for="social-media-buttons">Social Media buttons<span
+                                    class="price-badge">RM15</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="whatsapp-buttons" name="features" type="checkbox" value="20" />
+                            <label for="whatsapp-buttons">WhatsApp buttons<span class="price-badge">RM20</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="product-display" name="features" type="checkbox" value="100" />
+                            <label for="product-display">Product/Package Display<span
+                                    class="price-badge">RM100</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="pricing-table" name="features" type="checkbox" value="100" />
+                            <label for="pricing-table">Pricing Table<span class="price-badge">RM100</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="booking-form-click" name="features" type="checkbox" value="80" />
+                            <label for="booking-form-click">Booking/Order Form (client click &amp; submit to
+                                WhatsApp)<span class="price-badge">RM80</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="booking-form-auto-whatsapp" name="features" type="checkbox" value="400" />
+                            <label for="booking-form-auto-whatsapp">Booking/Order Form (send to WhatsApp without client
+                                click)<span class="price-badge">RM400</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="booking-form-email" name="features" type="checkbox" value="20" />
+                            <label for="booking-form-email">Booking/Order Form (send to Email)<span
+                                    class="price-badge">RM20</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="cart-without-payment" name="cart-options" type="checkbox" value="400" />
+                            <label for="cart-without-payment">Cart without Payment Gateway<span
+                                    class="price-badge">RM400</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="cart-with-payment" name="cart-options" type="checkbox" value="600" />
+                            <label for="cart-with-payment">Cart with Payment Gateway<span
+                                    class="price-badge">RM600</span></label>
+                        </div>
+                        <div class="feature-option">
+                            <input id="statistics" name="features" type="checkbox" value="10" />
+                            <label for="statistics">Statistics / Track Record<span
+                                    class="price-badge">RM10</span></label>
+                        </div>
+                        <p class="hint">Automatic WhatsApp sending may require a paid API/provider. Payment gateways may
+                            charge setup, subscription or transaction fees. These third-party charges are excluded.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="additional-features">Please indicate if you need any other feature below:</label>
+                        <textarea aria-describedby="additional-features-hint" id="additional-features"
+                            name="additional-features" placeholder="Describe any additional features..."
+                            rows="4"></textarea><small id="additional-features-hint">Unpriced requests require a
+                            separate quote and are not included in the estimate.</small>
+                    </div>
+                </section>
+            </form>
+            <aside class="summary card" aria-labelledby="estimate-title">
+                <div class="summary-top">
+                    <p class="eyebrow">YOUR PROJECT</p><button id="reset-button" type="reset" form="pricing-form"
+                        class="text-button">Reset</button>
+                </div>
+                <p id="reset-status" class="hint" role="status" aria-live="polite"></p>
+                <h2 id="estimate-title">The estimate</h2>
+                <div class="totals" aria-live="polite" aria-atomic="true"><span>One-time project cost</span><strong
+                        id="one-time-total">RM 80.00</strong>
+                    <div class="recurring">
+                        <div><span>Monthly support</span><b id="monthly-total">RM 0.00</b></div>
+                        <div><span>Annual services</span><b id="annual-total">RM 0.00</b></div>
+                    </div>
+                </div>
+                <div id="estimate-lines"></div>
+                <div class="initial-total"><span>Initial payment estimate*</span><b id="total">RM 80.00</b></div>
+                <p class="hint">*Project cost + first month of support + first-year annual services. This is an
+                    estimate, subject to scope confirmation.</p>
+                <p id="estimate-error" class="error" role="alert" hidden></p><button type="button" id="rfq-button"
+                    class="primary">Prepare quotation <span aria-hidden="true">↗</span></button>
+                <p class="hint">Review your details, then print or save as PDF. Nothing is sent automatically.</p>
+            </aside>
+        </div>
+    </main>
+    <dialog id="rfq-dialog" aria-labelledby="rfq-title">
+        <form id="rfq-form">
+            <div class="dialog-top">
+                <h2 id="rfq-title">Prepare your quotation</h2><button type="button" id="close-rfq" class="icon-button"
+                    aria-label="Close quotation dialog">×</button>
+            </div>
+            <p>Add your details to the printable project estimate.</p><label for="user-name">Your name</label><input
+                id="user-name" name="user-name" autocomplete="name" maxlength="120" required><label
+                for="user-contact">Email or phone number</label><input id="user-contact" name="user-contact"
+                autocomplete="email" maxlength="150" required>
+            <p id="contact-error" class="error" role="alert" hidden></p>
+            <p class="hint">Your contact details are used only in this quotation and are not stored by this app.</p>
+            <div class="actions"><button type="button" id="cancel-rfq" class="secondary">Cancel</button><button
+                    type="submit" class="primary">Review quotation</button></div>
+        </form>
+    </dialog>
+    <section id="print-quote" hidden aria-label="Quotation preview"></section>
+    <div class="mobile-estimate">
+        <div><span>Initial estimate</span><strong id="mobile-total">RM 80.00</strong></div><button type="button"
+            id="review-estimate" class="primary">Review estimate ↑</button>
+    </div>
+    <footer><span>Questions or feedback? <a href="https://banaart.com" target="_blank" rel="noopener noreferrer">Get in
+                touch ↗</a></span><button type="button" id="buy-calculator" class="text-button">Get this calculator for
+            your business</button></footer>
+    <dialog id="buy-dialog" aria-labelledby="buy-title">
+        <div class="dialog-top">
+            <h2 id="buy-title">Get the calculator</h2><button type="button" id="close-buy" class="icon-button"
+                aria-label="Close calculator dialog">×</button>
+        </div>
+        <p>Pay whatever amount you choose. Include “Calculator” in your payment reference, then send your receipt by
+            WhatsApp to arrange delivery of the files.</p><a href="https://banaart.com/qr-iwani.jpg" target="_blank"
+            rel="noopener noreferrer">View payment QR code ↗</a>
+        <div class="actions"><button type="button" id="cancel-buy" class="secondary">Close</button><a class="primary"
+                href="https://wa.link/k5wl78" target="_blank" rel="noopener noreferrer">Send receipt on WhatsApp ↗</a>
+        </div>
+    </dialog>
+</body>
+
+</html>
