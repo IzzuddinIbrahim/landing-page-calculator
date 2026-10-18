@@ -33,3 +33,4 @@ Additional requests and third-party fees are excluded until separately quoted. T
 
 ## Validation
 17 pricing checks plus browser checks covered desktop, 390px/320px mobile overflow, reset, incompatible selections, plan changes, invalid hours/contact, safe text rendering, quotation preview, print layout, and Escape-to-close. WhatsApp/payment destinations were retained from the original app and were not independently verified or contacted.
+## Deployment connection test.
